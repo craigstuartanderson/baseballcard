@@ -1,0 +1,441 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.pageContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.jsxDiv {
+  background-image: url("https://www.perfectgame.org/Images/StaticContent/Field%20under%20the%20lights.jpg");
+  background-position: center; }
+
+.sideInfo {
+  width: 30%;
+  background: white; }
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 70%; }
+
+img {
+  max-width: 100%; }
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif; }
+
+body {
+  font-family: 'Roboto Slab', sans-serif; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+button,
+input {
+  border: 1px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  text-align: center; }
+
+h3 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0; }
+
+h5 {
+  margin: 0; }
+
+h6 {
+  margin: 0;
+  font-size: 1rem; }
+
+header {
+  padding: 20px; }
+
+h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 1.6rem;
+  margin: 10px 0;
+  padding: 0;
+  width: 120px;
+  line-height: 1.2; }
+
+footer p {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  margin: 10px; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0 0 10px grey;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightgray;
+  font-family: 'Roboto', sans-serif; }
+
+.cardBorder {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid grey;
+  border-radius: 5px;
+  position: relative; }
+
+.cardFront h3 {
+  font-size: 4rem;
+  font-style: italic; }
+
+.cardFront h4 {
+  font-size: 3rem; }
+
+.playerInfo {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 95%;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  bottom: 60px; }
+
+.playerInfo h6 {
+  position: absolute;
+  font-size: 1.4rem; }
+
+.teamInfo {
+  border: 2px solid maroon;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  background: white;
+  position: absolute;
+  bottom: 130px;
+  right: 15px;
+  font-style: italic; }
+
+.teamInfo h5 {
+  margin: 0;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.8rem;
+  text-transform: uppercase; }
+
+.totals {
+  position: relative; }
+  .totals__stats {
+    display: flex;
+    font-size: 1.4rem;
+    padding-bottom: 10px; }
+  .totals__icons {
+    display: flex;
+    position: absolute;
+    bottom: 440px;
+    right: -10px; }
+
+.totals__icons h4 {
+  font-size: 1.8rem;
+  margin: 0 2px; }
+
+.totals li {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center; }
+
+.totals h5 {
+  text-transform: uppercase;
+  font-style: italic; }
+
+.cardBack {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto; }
+
+.backInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+
+.playerAvatar,
+.teamLogo {
+  width: 25%; }
+
+.allgames {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px 5px; }
+
+.gameContainer {
+  display: flex; }
+
+.gameList {
+  display: flex;
+  width: 90%;
+  border-bottom: 1px solid grey; }
+
+.gameList li {
+  width: 14%; }
+
+.gameDate {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 5px; }
+
+.gameContainer button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; }
+
+.inputGame form {
+  padding: 0 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.inputGame h4 {
+  font-size: 1.4rem; }
+
+.entryBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 45%; }
+
+input {
+  margin: 5px;
+  font-size: 1.6rem;
+  line-height: 1.8; }
+
+label {
+  margin-top: 5px;
+  font-size: 1.2rem;
+  text-transform: uppercase; }
+
+.inputGame button {
+  text-transform: uppercase;
+  color: white;
+  background: black;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  width: 100%;
+  padding: 0;
+  margin: 10px; }
+  .inputGame button:hover {
+    color: black;
+    background: white; }
+
+@media (max-width: 1080px) {
+  .sideInfo {
+    width: 20%; }
+  .cardC {
+    width: 35%; }
+  .sideInfo h1 {
+    font-size: 3rem; } }
+
+@media (max-width: 940px) {
+  .pageContainer {
+    flex-direction: column;
+    height: 200vh;
+    justify-content: space-around; }
+  .jsxDiv {
+    background-image: none; }
+  .sideInfo {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center; }
+  header {
+    width: 30%;
+    margin: 0; }
+  header form {
+    width: 60%;
+    padding: 20px; }
+  .entryBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 25%; }
+  .inputGame button {
+    width: 25%; } }
+
+@media (max-width: 740px) {
+  .inputGame button {
+    width: 35%; }
+  .pageContainer {
+    height: 250vh; } }
+
+@media (max-width: 570px) {
+  .pageContainer {
+    height: 280vh; }
+  .sideInfo {
+    flex-direction: column; }
+  header {
+    width: 100%; }
+  .sideInfo header h1 {
+    font-size: 6rem; } }
