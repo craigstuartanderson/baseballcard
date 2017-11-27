@@ -1,0 +1,75 @@
+@media (max-width: 1080px){
+    .sideInfo{
+        width: 20%;
+    }
+    .cardC{
+        width: 35%;
+    }
+    .sideInfo h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 940px){
+    .pageContainer{
+        flex-direction: column;
+        height: 200vh;
+        justify-content: space-around;
+    }
+    .jsxDiv{
+        background-image: none;
+    }
+    .sideInfo{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+    header{
+        width: 30%;
+        margin: 0;
+    }
+    header form{
+        width: 60%;
+        padding: 20px;
+    }
+    .entryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 25%;
+    }
+    .inputGame button{
+        width: 25%;
+
+    }
+    
+}
+
+@media (max-width: 740px) {
+    .inputGame button{
+        width: 35%;
+
+    }
+    .pageContainer{
+        height: 250vh;
+    }
+    
+}
+@media (max-width: 570px) {
+    .pageContainer{
+        height: 280vh;
+    }
+
+    .sideInfo{
+        flex-direction: column;
+    }
+    header{
+        width: 100%;
+    }
+    .sideInfo header h1{
+        font-size: 6rem;
+    }
+}

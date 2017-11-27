@@ -1,0 +1,47 @@
+
+
+.inputGame form{
+    padding: 0 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+.inputGame h4{
+    font-size: 1.4rem;
+    // text-transform: uppercase;
+}
+.entryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 45%;
+    
+}
+input{
+    margin: 5px;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    // width: 50%;
+}
+label{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.inputGame button{
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    font-size: 1.8rem;
+    line-height: 1.8;
+    width: 100%;
+    padding: 0;
+    margin: 10px;
+        &:hover{
+            color: black;
+            background: white;
+        }
+}

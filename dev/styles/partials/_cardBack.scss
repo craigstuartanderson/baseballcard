@@ -1,0 +1,43 @@
+
+.cardBack{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+.backInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.playerAvatar,
+.teamLogo{
+    width: 25%;
+}
+.allgames{
+    border:2px solid grey;
+    border-radius: 5px;
+    padding: 10px 5px;  
+}
+.gameContainer{
+    display: flex;
+}
+.gameList{
+    display: flex;
+    width: 90%;
+    border-bottom: 1px solid grey;
+}
+.gameList li{
+    width: 14%;
+}
+.gameDate{
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 5px;    
+}
+.gameContainer button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}

@@ -1,0 +1,95 @@
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 0 10px grey;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardBorder{
+    padding: 10px;
+    background-color: white;
+    border:2px solid grey;
+    border-radius: 5px;
+    position: relative;
+}
+.cardFront h3{
+    font-size: 4rem;
+    font-style: italic;
+}
+.cardFront h4{
+    font-size: 3rem;
+
+}
+.playerInfo{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+    background:rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 60px;
+}
+.playerInfo h6{
+    position: absolute;
+    font-size: 1.4rem;
+}
+.teamInfo{
+    border: 2px solid maroon;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: white;
+    position: absolute;
+    bottom: 130px;
+    right: 15px;
+    font-style: italic;
+}
+.teamInfo h5{
+    margin: 0;
+    text-align: center;
+    padding-top:15px;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.totals{
+    position: relative;
+        &__stats{
+           display: flex;
+           font-size: 1.4rem;
+           padding-bottom: 10px;
+        }
+        &__icons{
+            display: flex;
+            position: absolute;
+            bottom: 440px;
+            right: -10px;
+
+        }         
+}
+.totals__icons h4{
+    font-size: 1.8rem;
+    margin: 0 2px;
+}
+
+.totals li{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+.totals h5{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
